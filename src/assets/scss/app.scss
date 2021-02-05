@@ -1,0 +1,139 @@
+@import "settings";
+@import "foundation-emails";
+@import "template/template";
+
+.main-container{
+  padding:  20px;
+  background-color: #060b0c!important;
+}
+
+.test{
+  padding: 20px;
+}
+.hello {
+  background-color: #0096c8;
+}
+.hello-text {
+  color: #ffffff;
+  font-family: Arial;
+}
+.hello-text-l {
+  font-size: 25px;
+}
+.hello-text-s {
+  font-size: 15px;
+}
+.info-name {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 700;
+}
+.line {
+  height: 1px;
+  background-color: #dee8ef;
+  border-radius: 1px;
+}
+.number {
+  max-width: 195px;
+}
+.title_blue {
+  color: #0096c8;
+  font-size: 15px;
+  font-weight: 700;
+}
+.info-text{
+  font-size: 15px;
+  font-weight: 400;
+}
+.padding-none {
+  padding-bottom: 0 !important;
+}
+.mt-5 {
+  margin-top: 5px;
+}
+.mb-5 {
+  margin-bottom: 5px;
+}
+.t-a-center{
+  text-align: center!important;
+}
+.diagnostic-title {
+  background-color: #e8f0f4;
+  height: 58px;
+}
+
+.border {
+  padding: 10px;
+  border-right: 1px solid #e3ecf1;
+  border-left: 1px solid #e3ecf1;
+}
+
+.vertical-middle {
+  vertical-align: middle;
+  th{
+  text-align: center;
+  }
+}
+.mb-mt-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.question {
+  background-color: #f2f7f9;
+}
+.socials-element {
+  margin-right: 10px;
+}
+.socials-element-link {
+  display: inline-block;
+}
+
+.footer {
+  background-color: #0096c8;
+}
+
+.footer-text {
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  margin-bottom: 20px;
+  &-link{
+    color: #fff!important;
+  }
+}
+
+.footer-text-socials {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 14px;
+  color: #fff;
+}
+
+.footer-columns .columns {
+  padding-bottom: 0 !important;
+}
+
+.footer-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-logo {
+  margin-top: 15px;
+}
+
+.footer-text_info{
+  font-size: 12px;
+  & a{
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+
+@media only screen and (max-width: 616px){
+  .small-v-middle{
+    height: 100%!important;
+    display: table-cell!important
+  }
+}
